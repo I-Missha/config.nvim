@@ -26,6 +26,7 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "config.plugins" },
+    {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
   },
   change_detection = { notify = false }
   -- Configure any other settings here. See the documentation for more details.
