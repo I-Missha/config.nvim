@@ -15,7 +15,7 @@ return {
 
             vim.keymap.set("n", "<C-m>", function() harpoon:list():select(1) end)
             vim.keymap.set("n", "<F3>", function() harpoon:list():select(2) end) -- ctrl+, replaced with F3 in the os
-            vim.keymap.set("n", "<F4>", function() harpoon:list():select(3) end) -- ctrl+. replaced with F3 in the os
+            vim.keymap.set("n", "<F4>", function() harpoon:list():select(3) end) -- ctrl+. replaced with F4 in the os
             vim.keymap.set("n", "<C-/>", function() harpoon:list():select(4) end)
 
             -- Toggle previous & next buffers stored within Harpoon list
